@@ -1,24 +1,21 @@
-# README
+Invoicer Ape
+============
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple but powerful application
+-------------------------------
 
-Things you may want to cover:
+### Welcome to the main repository
 
-* Ruby version
+Feel free to check my [github portfolio](https://github.com/aeterne/).
 
-* System dependencies
+### Powerful Application
+* Fast loading
++ Multiple choices
+- 306° Support
 
-* Configuration
+### Why choose this application
+1. Precision
+2. Price
+3. Performance
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Some ruby code example `puts "Nice application"`
