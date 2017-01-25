@@ -11,24 +11,24 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= f.label :date %>
-    <%= f.datetime_select :date %>
+    <%= f.datetime_select :date, class: "form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= f.label :company %>
-    <%= f.text_field :company %>
+    <%= f.text_field :company, class: "form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= f.label :tax %>
-    <%= f.text_field :tax %>
+    <%= f.text_field :tax, class: "form-control" %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= f.label :salesperson %>
-    <%= f.text_field :salesperson %>
+    <%= f.text_field :salesperson, class: "form-control" %>
   </div>
 
   <div class="actions">
