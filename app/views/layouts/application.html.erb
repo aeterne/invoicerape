@@ -11,7 +11,7 @@
   <body>
 
     <div class="container">
-      <ul class="nav nav-tabs">
+       <ul class="nav nav-tabs">
       	<li><%= link_to "Home", root_path %></li>
       	<li><%= link_to "About Us", welcome_about_path %></li>
       	<li><%= link_to "Pricing", welcome_pricing_path %></li>
@@ -21,6 +21,10 @@
         <li><%= link_to "Invoices", invoices_path %></li>
       	<li><%= link_to "Login", root_path %></li>
       </ul>
+  </div>
+
+  <div class="container">
+
     <%= yield %>
   </div>
 
